@@ -1,0 +1,97 @@
+/* CSS styles for the Expense Tracker */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form select, form input[type="number"], form input[type="date"], form input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+    width: calc(100% - 22px); /* Adjusted width to accommodate the border */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+#expenseSummary {
+    margin-top: 20px;
+}
+
+#expenseSummary p {
+    margin: 5px 0;
+}
+
+/* Added styling for category buttons */
+#categoryButtons {
+    margin-bottom: 20px;
+}
+
+#categoryButtons button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+#categoryButtons button:hover {
+    background-color: #555;
+}
+
+#categoryButtons button:focus {
+    outline: none;
+}
+
+
+
